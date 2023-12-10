@@ -1,0 +1,31 @@
+1.
+    Napisz funkcję, która przyjmuje dwa argumenty: liczby n i  r, znajduje wszystkie dwucyfrowe 
+    liczby, dla których reszta z dzielenia przez n wynosi r, i zapisuje je na liście. Funkcja ma zwracać 
+    listę ze znalezionymi liczbami (nic nie wypisywać na ekran). 
+    Przetestuj działanie funkcji: napisz krótki program wywołujący ją dla różnych jednocyfrowych 
+    wartości n i r oraz wypisujący uzyskaną listę na ekran.
+
+2.
+    Napisz funkcję, która dla danej listy słów, przekazanej jako argument wywołania funkcji, stworzy i zwróci
+    nową listę, zawierającą każde słowo z oryginalnej listy odczytane wspak, oprócz słów będących palindromami.
+    Sprawdzanie, czy dane słowo jest palindromem, należy przeprowadzać nie biorąc pod uwagę wielkości liter (wskazówka: metoda  lower).
+    Na przykład, dla listy: 
+        ['Ala', 'ma', 'kota', 'oraz', 'radar'] 
+    funkcja powinna zwrócić listę: 
+        ['am', 'atok', 'zaro'] 
+    Oryginalna lista powinna pozostać niezmieniona.
+    Wskazówka: zmienne typu string są sekwencjami niemodyfikowalnymi, można dla nich stosować ogólne operacje dostępne dla sekwencji. 
+    Przetestuj działanie funkcji: napisz krótki program wywołujący ją z różnymi parametrami.
+
+3.
+    Napisz funkcję, wykonującą następujące operacje dla listy podanej jako argument wywołania: 
+        - wypisz długość listy (liczbę elementów na liście); 
+        - wyznacz i wypisz element, który na liście występuje najwięcej razy, oraz liczbę jego wystąpień (jeśli jest kilka elementów spełniających ten warunek, wybierz pierwszy z nich);
+        - wypisz wszystkie indeksy, pod którymi pojawia się najczęściej występujący element; 
+        - usuń najczęściej występujący element z listy i wypisz ją; 
+        - element z pozycji [0] bieżącej listy dodaj na początku i końcu listy i wypisz listę wynikową;  
+        - usuń powtarzające się elementy, posortuj i wypisz listę wynikową; 
+        - ułóż elementy listy w następujący sposób: najpierw elementy o nieparzystych indeksach, potem – parzystych, i wypisz listę wynikową. 
+    Do wykonania poleceń użyj metod i operacji dostępnych dla list. Wskazówka: listy są sekwencjami, oprócz funkcji zdefiniowanych
+    typowo dla list można też stosować ogólne operacje dostępne dla sekwencji. Powyższe operacje należy zawrzeć w oddzielnej funkcji,
+    przyjmującej listę jako argument wywołania, a działanie funkcji przetestować wywołując ją z różnymi parametrami. 
