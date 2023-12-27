@@ -1,0 +1,4 @@
+175691 Wolfgang Mozart 5 5 5 
+168550 Leonardo Fibonacci 0 1 1 2 3 5 
+190675 Dymitr Szostakowicz 4 5 2 1 
+321321 Wiktor Tichonow 2 4 5 5 4 2

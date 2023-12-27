@@ -1,0 +1,38 @@
+1.
+    Napisz funkcję odczytującą linia po linii pewną liczbę linii pliku i zliczającą występujące w nim wyrazy. 
+    Nazwa pliku oraz liczba analizowanych linii mają być parametrami wywołania funkcji; jeżeli podana 
+    liczba będzie większa niż liczba wierszy w pliku, to ma zostać wczytany cały plik. Funkcja ma zwracać 
+    słownik, którego kluczami są wyrazy, a wartościami –  liczba ich wystąpień w danym pliku. Liczbę różnych wyrazów
+    oraz wynikowy słownik funkcja ma zapisać do pliku json.
+
+    Write a function that reads a certain number of lines from a file line by line and counts the occurrences of words in it.
+    The file name and the number of analyzed lines should be parameters of the function call; if the given number is greater
+    than the number of lines in the file, the entire file should be read. The function should return a dictionary, where the keys
+    are words, and the values are the number of their occurrences in the file. The function should also save the number of different
+    words and the resulting dictionary to a json file.
+
+
+2.
+    1) Funkcję odczytującą z pliku informacje o studentach i zapisującą je w słowniku. Nazwa pliku 
+    ma być parametrem wywołania funkcji. Każda linia pliku  ma  zawierać  następujące dane: 
+    numer indeksu, imię, nazwisko oraz pewną liczbę ocen uzyskanych przez studenta. Numer 
+    indeksu należy wykorzystać jako klucz słownika, a  do  każdej  wartości klucza w słowniku 
+    należy przypisać  –  w  postaci  listy  –  pozostałe dane odczytane z pliku. Funkcja ma  zwracać 
+    utworzony słownik.
+
+    2) Funkcję wybierającą ze słownika tylko tych studentów, których średnia ocen jest większa od 
+    pewnej wartości  i zapisująca  dane  tych studentów do nowego pliku. Słownik zawierający 
+    dane  studentów, średnia i nazwa pliku zawierającego przefiltrowany  spis  studentów mają 
+    być  parametrami  wywołania  funkcji. Dane w  pliku  wyjściowym mają być  tak  samo 
+    sformatowane jak dane w pliku wejściowym.
+
+    1) Write a function that reads information about students from a file and stores it in a dictionary. The file name
+    should be a parameter of the function call. Each line of the file should contain the following data: student ID,
+    first name, last name, and a number of grades obtained by the student. Use the student ID as the key in the dictionary,
+    and assign the remaining data read from the file to each value of the key in the form of a list. The function should return
+    the created dictionary.
+
+    2) Write a function that selects from the dictionary only those students whose average grade is greater than a certain value
+    and saves the data of these students to a new file. The dictionary containing the data of students, the average value, and
+    the name of the file containing the filtered list of students should be parameters of the function call. The data in the
+    output file should be formatted in the same way as the data in the input file.

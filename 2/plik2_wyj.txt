@@ -1,0 +1,4 @@
+175691 Wolfgang Mozart 5.0 
+168550 Leonardo Fibonacci 2.0 
+190675 Dymitr Szostakowicz 3.0 
+321321 Wiktor Tichonow 3.67 
