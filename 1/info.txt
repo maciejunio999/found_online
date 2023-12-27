@@ -5,6 +5,13 @@
     Przetestuj działanie funkcji: napisz krótki program wywołujący ją dla różnych jednocyfrowych 
     wartości n i r oraz wypisujący uzyskaną listę na ekran.
 
+    Write a function that takes two arguments: the numbers n and r, finds all two-digit numbers
+    for which the remainder of division by n is r, and stores them in a list. The function should return
+    a list with the found numbers (do not print anything to the screen).
+    Test the function: write a short program that calls it for different single-digit values of n and r
+    and prints the obtained list on the screen.
+
+
 2.
     Napisz funkcję, która dla danej listy słów, przekazanej jako argument wywołania funkcji, stworzy i zwróci
     nową listę, zawierającą każde słowo z oryginalnej listy odczytane wspak, oprócz słów będących palindromami.
@@ -17,6 +24,19 @@
     Wskazówka: zmienne typu string są sekwencjami niemodyfikowalnymi, można dla nich stosować ogólne operacje dostępne dla sekwencji. 
     Przetestuj działanie funkcji: napisz krótki program wywołujący ją z różnymi parametrami.
 
+    Write a function that, for a given list of words passed as an argument to the function call, creates and returns
+    a new list containing each word from the original list read backward, except for palindromic words.
+    Checking whether a given word is a palindrome should be done regardless of letter case (hint: use the `lower` method).
+    For example, for the list:
+    ['Ala', 'ma', 'kota', 'oraz', 'radar']
+    the function should return the list:
+    ['am', 'atok', 'zaro']
+    The original list should remain unchanged.
+    Tip: string variables are immutable sequences; you can apply general operations available for sequences. 
+    Test the function: write a short program that calls it with different parameters.
+
+
+
 3.
     Napisz funkcję, wykonującą następujące operacje dla listy podanej jako argument wywołania: 
         - wypisz długość listy (liczbę elementów na liście); 
@@ -28,4 +48,17 @@
         - ułóż elementy listy w następujący sposób: najpierw elementy o nieparzystych indeksach, potem – parzystych, i wypisz listę wynikową. 
     Do wykonania poleceń użyj metod i operacji dostępnych dla list. Wskazówka: listy są sekwencjami, oprócz funkcji zdefiniowanych
     typowo dla list można też stosować ogólne operacje dostępne dla sekwencji. Powyższe operacje należy zawrzeć w oddzielnej funkcji,
-    przyjmującej listę jako argument wywołania, a działanie funkcji przetestować wywołując ją z różnymi parametrami. 
+    przyjmującej listę jako argument wywołania, a działanie funkcji przetestować wywołując ją z różnymi parametrami.
+
+    Write a function performing the following operations for a list provided as an argument:
+            - print the length of the list (number of elements in the list);
+            - determine and print the element that appears most frequently in the list, along with the number of its occurrences
+              (if there are multiple elements meeting this condition, choose the first one);
+            - print all indexes at which the most frequently appearing element appears;
+            - remove the most frequently appearing element from the list and print it;
+            - add the element at position [0] of the current list to the beginning and end of the list, then print the resulting list;
+            - remove duplicate elements, sort, and print the resulting list;
+            - arrange the elements of the list as follows: first, the elements with odd indices, then – even indices, and print the resulting list.
+        To perform the commands, use methods and operations available for lists. Tip: lists are sequences, and in addition to functions
+        specifically defined for lists, you can also apply general operations available for sequences. Include the above operations in a separate function,
+        accepting the list as the function call argument, and test the function by calling it with various parameters.
