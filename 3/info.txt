@@ -1,0 +1,20 @@
+1.
+    Napisz funkcję realizującą różniczkowanie metodą różnicy wstecznej. Metoda ta jest zdefiniowana
+    następującym wzorem:
+        **ZDJECIE**
+    gdzie y0 ... yN są danymi wartościami różniczkowanej funkcji f(x)  w punktach x0 ... xN,
+    a y'1 ... y'N są wynikami różniczkowania – wartościami pochodnej f'(x)  w punktach x1 ... xN. 
+    Funkcja powinna przyjmować dwa argumenty wejściowe: listy, zawierające wartości x0 ... xN  
+    i y0 ... yN; powinna też zwracać listę zawierającą wartości y'1 ... y'N.
+    Na przykład, dla argumentów wejściowych: 
+    x = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0] 
+    y = [0.0, 1.125, 2.5, 4.125, 6.0, 8.125, 10.5]  
+    funkcja powinna zwrócić: 
+    [2.25, 2.75, 3.25, 3.75, 4.25, 4.75]
+
+2.
+    Napisz funkcję odczytującą zawartość pliku i obliczającą względną częstość występowania
+    poszczególnych dużych liter pośród wszystkich dużych liter w tym pliku. Nazwa pliku powinna 
+    być argumentem wejściowym funkcji. Należy pominąć wszystkie małe litery oraz znaki nie będące
+    literami. Funkcja powinna tworzyć słownik w formie {klucz: litera, wartość: częstość} oraz zapisywać
+    go do pliku w formacie JSON.
