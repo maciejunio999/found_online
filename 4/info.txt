@@ -1,0 +1,24 @@
+1.
+    Napisz program wykonujący operacje  dodawania,  odejmowania  oraz  iloczynu dwóch zbiorów 
+    zawierających  dowolne  ciągi  znaków alfanumerycznych.
+    Program  ma  pobierać od użytkownika (wczytywać z konsoli) wyrażenia typu A#B, gdzie: 
+        – A i B to zbiory elementów ujętych w nawiasy klamrowe, oddzielonych przecinkami, np. {1,22,3,b}.  
+        – #  to  jeden  z  dozwolonych  operatorów: + (oznaczający sumę zbiorów), - (oznaczający  różnicę 
+        zbiorów)  albo  * (oznaczający iloczyn zbiorów). 
+    Program po wykonaniu obliczeń powinien wyświetlić wynik w linii komend. Ponadto program: 
+        – ma wykorzystywać wbudowane funkcje dostępne dla zbiorów; 
+        – powinien być odporny (tj. odpowiednio reagować) na brak operatora w podanym wyrażeniu, na 
+        wprowadzenie operatora innego niż dozwolone, na brak jednego ze zbiorów (czyli sytuację, kiedy 
+        operator  jest  pierwszym  albo  ostatnim  znakiem  wyrażenia)  oraz  na  ewentualne spacje (białe 
+        znaki)  na  początku  i  końcu  wyrażenia,  pomiędzy  elementami oraz pomiędzy  zbiorami a 
+        operatorem.
+
+2.
+    Napisz program, który jako parametr przyjmuje nazwę pliku .csv, w którym znajdują się informacje 
+    o nazwach użytkowników i przypisanych do nich hasłach, a następnie wczytuje te dane i umieszcza 
+    je w słowniku, w którym kluczem jest nazwa użytkownika,  a wartością –  hasło.
+    Następnie  program  pobiera  od  użytkownika  (wczytuje  z  konsoli)  pary  informacji:  o  nazwie 
+    użytkownika i o przypisanym do niego haśle, do momentu wprowadzenia pustej nazwy użytkownika. 
+    Wszystkie  wprowadzone  pary  mają  zostać  dopisane do słownika, a na zakończenie  program  ma 
+    zapisać wszystkie dane do pliku, z którego wczytywał je na początku. Program powinien być odporny 
+    na sytuację, w którym plik z danymi jeszcze nie istnieje
