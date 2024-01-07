@@ -1,0 +1,33 @@
+1.
+    Napisz  klasę PhoneBook  przechowującą dane o użytkownikach i ich numerach telefonów; w 
+    obiektach tej klasy dane mają być przechowywane w słowniku. Dla klasy zdefiniuj: 
+        – metodę __init__(self), która tworzy w obiekcie klasy pusty słownik; 
+        – metodę read(self,filename), która jako parametr przyjmuje nazwę pliku .csv, w którym 
+        znajdują się informacje o nazwach użytkowników i przypisanych do nich numerach telefonów, a 
+        następnie wczytuje te dane i umieszcza je w słowniku obiektu klasy: w słowniku kluczem ma być 
+        nazwa użytkownika, a wartością – numer telefonu będący zmienną tekstową zawierająca jedynie 
+        cyfry; w przypadku, gdy bieżący obiekt zawiera niepusty słownik, należy zachować jego zawartość 
+        i dodać nowe wpisy lub – jeśli wczytywany plik zawiera inną wartość dla istniejącego już klucza – 
+        podmienić odpowiednie wartości; przykładowa zawartość pliku .csv: 
+            user1,123123 
+            user2,123456 
+            user3,432156 
+        – metodę  add_record(self,data),  która  przyjmuje jako  argument  zmienną  tekstową 
+        zawierającą dane dotyczące jednego użytkownika, sformatowane w podany powyżej sposób, a 
+        następnie dodaje te dane do słownika; 
+        – metodę  write(self,filename), która zapisuje słownik do pliku  .csv  o  nazwie  będącej 
+        argumentem funkcji; dane w pliku .csv maja być sformatowane w sposób podany powyżej. 
+    
+    Napisz program testujący  wszystkie  metody  klasy  PhoneBook; wszelkie  wyjątki  (zarówno 
+    generowane przez tę klasę jak i wynikające z innych przyczyn) muszą być obsłużone przez program 
+    testujący  – w  przypadku  wystąpienia  błędu  program ma wypisywać stosowny komunikat 
+    informujący o tym błędzie.
+
+2.
+    W module z klasą PhoneBook: 
+    – zdefiniuj własny wyjątek dziedziczący po jakimś wyjątku standardowym; zmodyfikuj klasę tak, 
+    aby rzucała ten wyjątek zamiast wyjątku standardowego typu; 
+    – zmodyfikuj metody przyjmujące dane o użytkownikach, aby sprawdzały, czy nazwa użytkownika 
+    lub numer są puste, i rzucały odpowiedni wyjątek w takim przypadku; 
+    – zmodyfikuj metody przyjmujące dane o użytkownikach, aby sprawdzały, czy numer zawiera 
+    wyłącznie cyfry, i rzucały odpowiedni wyjątek w takim przypadku.
