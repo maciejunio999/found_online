@@ -1,0 +1,19 @@
+1.
+    Napisz klasę służącą do czytania i zapisywania plików z danymi w formacie klucz;wartość.
+    W obiektach stworzonej klasy dane mają być przechowywane w słowniku. Należy założyć,
+    że w plikach kolejne pary klucz;wartość znajdują się w kolejnych liniach.
+    Przykładowa zawartość pliku z danymi: 
+        Algorithm;interior-point 
+        Display;off 
+        MaxIterations;1000  
+        Heuristics;basic
+    Dla klasy zdefiniuj: 
+        – metodę __init__(), w której tworzony jest pusty słownik; 
+        – metodę wczytującą zawartość pliku o zadanej nazwie i dopisującą odpowiednie dane do 
+        bieżącego słownika, przy czym: 
+            – w przypadku, gdy bieżący obiekt zawiera niepusty słownik, należy zachować jego zawartość
+            i dodać nowe wpisy lub – jeśli wczytywany plik zawiera inną wartość dla istniejącego
+            już klucza – podmienić odpowiednie wartości; 
+            – metoda powinna być odporna na spacje na początku i końcu linii oraz wokół znaku „;”; 
+        – metodę zapisującą dane przechowywane w bieżącym obiekcie do pliku o zadanej nazwie 
+        (w tym samym formacie, co we wczytywanych plikach).

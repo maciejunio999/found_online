@@ -1,0 +1,5 @@
+aslan;narnia
+
+co  ;kto
+48;           0
+angle;5
