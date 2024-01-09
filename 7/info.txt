@@ -1,0 +1,24 @@
+1.
+    Napisz funkcję pobierającą listę plików w katalogu o podanej nazwie lub ścieżce, grupującą je 
+    według rozszerzenia i wyznaczającą ich rozmiary. Nazwa katalogu ma być argumentem wywołania
+    funkcji. Funkcja ma zwracać słownik, którego kluczami są rozszerzenia plików, a wartościami
+    kolejne słowniki; w tych kolejnych słownikach kluczami są nazwy plików, a wartościami ich rozmiary.
+    Funkcja powinna ignorować podkatalogi. Funkcja powinna rzucać wyjątek, jeśli katalog o podanej
+    nazwie nie istnieje.
+
+2.
+    Napisz funkcję wyszukującą wszystkie pliki o zadanym rozszerzeniu w zadanym katalogu (pomijając
+    jego podkatalogi) i zapisującą kopie tych plików w innym zadanym katalogu. Argumentami
+    funkcji mają być: rozszerzenie plików (np. ‘txt’ albo ‘png’), katalog do przeszukania oraz 
+    katalog do zapisania kopii. Jeśli katalog do przeszukania nie istnieje, funkcja powinna rzucać 
+    wyjątek. Jeśli katalog do zapisania kopii nie istnieje, funkcja powinna go stworzyć.
+
+3.
+    Napisz funkcję wyszukującą wszystkie pliki, których nazwy  zawierają zadany  fragment  tekstowy,
+    wewnątrz zadanego katalogu oraz jego podkatalogów. Argumentami wywołania funkcji mają być: fragment
+    do znalezienia wewnątrz nazwy oraz nazwa katalogu do przeszukania. Funkcja ma zwracać listę
+    zawierającą nazwy plików. W przypadku plików znajdujących się bezpośrednio w katalogu zadanym
+    do przeszukania, na liście powinna się znaleźć sama nazwa pliku. W przypadku plików znajdujących
+    się w podkatalogach, nazwy powinny być poprzedzone ścieżką, wyznaczoną względem katalogu
+    zadanego do przeszukania. Przykładowy wynik działania funkcji: 
+        ['file1.txt ', 'file2.txt ', 'subdir\\file3.txt']
