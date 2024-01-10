@@ -1,0 +1,8 @@
+1.
+    I hereby place an order for a solution to a linear algebra problem. The problem involves
+    solving a system of linear equations represented by a matrix A and a vector b.
+    The solution should include checks for singularity, QR decomposition, and the calculation
+    of the solution vector x.
+
+2.
+    ** zdjęcie **
