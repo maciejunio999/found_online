@@ -1,0 +1,35 @@
+1.
+    Napisz program rysujący hipotrochoidę o losowych parametrach. Hipotrochoida jest krzywą 
+    określoną przez trzy parametry: 1r, 2r, d, zdefiniowaną w następujący sposób:
+        x(t) = (r2 - r1)cos(t) + d*cos((r2 - r1)*t/r1)
+        y(t) = (r2 - r1)sin(t) + d*sin((r2 - r1)*t/r1)
+        t należy [0, 2pi * NWW(r1, r2)/r2]
+    gdzie x(t) i y(t) oznaczają współrzędne punktów znajdujących się na krzywej, a NWW
+    oznacza najmniejszą wspólną wielokrotność (numpy.lcm).
+    Program powinien realizować następujące funkcje: 
+        – losować wartości parametrów r1, r2, d – liczby całkowite z przedziału [1,10]; 
+        – generować tablicę wartości zmiennej t (numpy.linspace);
+        – dla wygenerowanej tablicy wartości t obliczać wartości x, y i wykorzystywać je do
+        narysowania krzywej; 
+        – dodawać do wykresu siatkę; 
+        – dodawać do wykresu tytuł, w którym podane będą wylosowane wartości parametrów.
+
+2.
+    Napisz  program rysujący  krzywe Béziera drugiego stopnia. Taka krzywa określona jest przez 
+    trzy tzw. punkty kontrolne (x1, y1), (x2, y2), (x3, y3) i zdefiniowana w następujący sposób: 
+    x(t) = (1 - t)^2 * x1 + 2t(1 - t) * x2 + t^2 * x3
+    y(t) = (1 - t)^2 * y1 + 2t(1 - t) * y2 + t^2 * y3
+
+    0 <= t <= 1
+    gdzie x(t) i y(t) oznaczają współrzędne punktów znajdujących się na krzywej.
+
+    Program powinien realizować następujące funkcje: 
+    – wczytywać dane z pliku zawierającego listę słowników w formacie JSON: każdy słownik ma 
+    odpowiadać  jednej  krzywej  i  określać  współrzędne punktów kontrolnych  oraz  kolor  tej 
+    krzywej; nazwa pliku ma być argumentem wywołania programu; 
+    – generować tablicę wartości zmiennej  t  (numpy.linspace), przy czym liczbę punktów 
+    należy dobrać tak, aby uzyskać gładką krzywą; 
+    – dla wygenerowanej tablicy wartości t obliczać wartości x, y i wykorzystywać je do naryso-
+    wania krzywej w zadanym kolorze; 
+    – dorysowywać na wykresie punkty kontrolne (matplotlib.pyplot.scatter); 
+    – dodawać do wykresu nazwy osi.
