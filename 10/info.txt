@@ -1,0 +1,6 @@
+1.
+    W serwisie Stooq (https://stooq.pl/) publikowane są m.in. aktualne kursy walut jak i historia zmian 
+    tych kursów. Konstruując odpowiednio adres URL, można pobrać obraz ilustrujący przebieg kursu 
+    danej waluty  z podanego dnia, obejmujący zadany  okres oraz prezentujący  ten przebieg w 
+    przystępny sposób. Napisz program umożliwiający pobieranie tych obrazów,  zapisywanie  ich oraz 
+    ich wyświetlanie.
