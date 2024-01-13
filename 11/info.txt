@@ -1,0 +1,39 @@
+1.
+    Za pomocą modułu pandas wczytaj zbiór danych "Chess Game Dataset (Lichess)" z pliku CSV,
+    do zmiennej typu DataFrame. Zbiór danych pochodzi ze strony:
+    https://www.kaggle.com/datasets/datasnaek/chess
+
+2.
+    Napisz funkcję, przyjmującą jako argument wejściowy zmienną typu DataFrame reprezentującą
+    zbiór rozgrywek szachowych, i wypisującą na ekranie następujące statystyki: 
+        – liczbę wszystkich gier w zbiorze (jedna gra = jeden wiersz tabeli), 
+        – odsetek gier, które zakończyły się wygraną białych (wartość white w kolumnie winner) 
+        – odsetek gier, które zakończyły się wygraną czarnych (wartość black w kolumnie winner) 
+        – odsetek gier, które zakończyły się remisem (wartość draw w kolumnie winner)
+
+3.
+    Napisz funkcję wyznaczającą podzbiór rozgrywek szachowych na podstawie zadanych kryteriów.
+    Funkcja ta powinna przyjmować 2 argumenty wejściowe: 
+        – zmienną typu DataFrame reprezentującą zbiór rozgrywek szachowych, 
+        – słownik, zawierający niektóre lub wszystkie spośród następujących pól: 
+            – min_rating i max_rating, określające minimalny i maksymalny ranking obu graczy 
+            (kolumny white_rating i black_rating; rozgrywka ma trafić do wyjściowego 
+            podzbioru, jeśli dane kryterium jest spełnione dla obu wartości); 
+            – victory_status, określające w jaki sposób zakończyła się rozgrywka 
+            (kolumna victory_status; możliwe wartości: "draw", "mate", "resign", 
+            "outoftime"). 
+    W  przypadku  gdy  wejściowy  słownik nie zawiera któregoś pola, dane kryterium  ma  nie  być 
+    brane pod uwagę.
+    Po wyznaczeniu podzbioru, funkcja powinna: 
+        – zapisać podzbiór do nowego pliku CSV o nazwie games_subset.csv; 
+        – zwrócić nową zmienną typu DataFrame, zawierającą wyznaczony podzbiór rozgrywek.
+
+4.
+    Napisz funkcję, przyjmującą jako argument wejściowy zmienną typu DataFrame reprezentu-
+    jącą zbiór rozgrywek szachowych, i generującą następujące histogramy: 
+        – histogram liczby ruchów (kolumna turns) dla rozgrywek, w których jeden z graczy się 
+        poddał (wartość resign w kolumnie victory_status) 
+        – histogram liczby ruchów (kolumna turns) dla rozgrywek, które zakończyły się remisem 
+        (wartość draw w kolumnie victory_status). 
+    
+    Przykładowe wyniki działania funkcji na następnej stronie.
