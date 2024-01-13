@@ -1,0 +1,7 @@
+1.
+    Napisz fukcję, która jako argumenty przyjmuje listę i cel. Lista ma zawierać liczby,
+    cel jest natomiast wynikiem dodawania jaki dowolne wyrazy obecne z listy mają osiągnąć.
+    Lista ma zwracać listę krotek indeksów liczby z danej listy, które spełniają powyższy warunek.
+
+2.
+    Dopis do fukcji z pkt. 1, która zwróci wszystkie możliwe kombinacje.
